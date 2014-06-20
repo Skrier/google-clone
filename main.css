@@ -1,0 +1,215 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* CSS STYLESHEET ALEXANDER LEWIS*/
+
+body {font-family: sans-serif;
+		font-size: 13px;}
+
+#Body {min-height: 500px;}
+
+
+/* This Section of Code Styles the Header*/
+
+			
+			.Header {
+					color:#404040;
+					text-decoration: none;
+					vertical-align: middle;
+					}
+
+			.Headerlineup {display: inline-block;
+							margin-right: 1%;
+						}
+
+			header div p a:hover {text-decoration: underline;
+								}
+
+			#HeaderAlign {text-align: right;
+							margin:1% 2%;
+							position: relative;}
+
+			header div p a img:hover {opacity: 1;}
+
+			header div p a img {height:25px;
+							width:25px;
+							opacity: 0.8;
+							}
+
+			header div form b input			{border-radius: 5%;
+											background: #4285f4;
+											color:white;
+											font-weight: bold;
+											border:1px solid #4285f4;
+											padding:7.5px 12px 7.5px 12px;}
+
+			header {position:relative;
+				top: 0px;
+				width: 100%;
+				min-width: 1350px;}
+
+/* This Section of Code Styles the Google Image*/
+
+
+			#GoogleLogo {display:inline-block;
+						position:relative;
+						width: 269px;
+						height: 95px;
+						bottom: -140px;}
+
+			#GoogleLogo1 {text-align: center;}
+
+		
+
+/* This Section of Code Styles the Google Search Box*/
+
+
+			#SearchBox {text-align: center;
+						border:1px solid #cdcdcd;
+						display: inline-block;
+						vertical-align: middle;
+						width:40%;
+						}
+
+			#SearchBox:hover {border: 1px solid rgba(0,0,0,.3);}
+
+			#SearchBox:active {outline: 1px solid #4285f4;}
+
+			#SearchContainer {text-align: center;
+								bottom: -160px;
+								position: relative;}
+
+			#Microphone {background-image: url("https://lh5.googleusercontent.com/h9uzbvXHZvmZF33arDnG85fEi9QUhhXG7p7KRd1QqAOhxf3SG0plNCbjf13yyAtCUKN3Gw=s190");
+						background-repeat: no-repeat;
+						border: 0px none white;
+						background-position: 50% 50%;
+						background-size: 22px 24px;
+						background-color: white;
+						float: right;
+						vertical-align: middle;
+						height: 27px;
+						width:29px;}
+
+			#Microphone:hover {cursor: pointer;}
+
+			#Microphone:focus {outline:none;}
+
+			#TextArea {float:left;
+						width: 500px;
+						border:transparent;
+						padding: 3px 0px 1px 4px;
+						}
+
+
+			#TextArea:focus {outline: none;
+								}
+
+/*This Section of Code Styles the Google Buttons Below the Search Box*/
+
+			.FormPos {display: inline-block;}
+
+			.Button {border-radius: 2px;
+						text-align: center;
+						border: solid 1px  #dcdcdc;
+						font-size: 11px;
+						font-weight: bold;
+						color: #444;
+						height: 29px;
+						background:  -webkit-linear-gradient(top, #f5f5f5,#f1f1f1);
+						margin-left: 10px;
+						margin-right: 10px;
+						position: relative;}
+
+			.Button:hover {box-shadow: 0.5px 1px 1px 0.5px #dcdcdc;
+							}
+
+			.Centerbutton {text-align: center;}
+
+			#SearchButton {bottom: -180px;
+							position: relative;
+						width: 100%;
+						min-width: 1350px;}
+
+/*This Section of Code Styles the Footer*/
+
+			.Footer {text-decoration: none;
+					color: #666;
+					display: inline-block;
+					}
+
+			.Footer:hover {text-decoration: underline;}
+
+			#Footercontainer {background-color: #f2f2f2;
+								border-top:1px solid #e4e4e4;
+								line-height: 350%;
+								vertical-align: middle;
+								position: fixed;
+								bottom: 0px;
+								width: 100%;
+								min-width: 1350px;
+							
+							}
+
+			.Footertext {display: inline-block;
+						width:49.5%;
+						clear: both;}
+
+			#Footerright {text-align: right;
+						background-color: #f2f2f2;
+
+						}
+
+			#Footerleft {text-align:left;
+						background-color: #f2f2f2;
+						}
+			
+			div #Footerright .Footer {margin-right: 4%;}
+
+			div #Footerleft .Footer {margin-left: 4%;}
